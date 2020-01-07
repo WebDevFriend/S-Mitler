@@ -1,0 +1,202 @@
+/*==========  Desktop First  ==========*/
+  
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.welcome{
+		h1{
+			font-size: 64px;
+		}
+	}
+	.header-contacts{
+		font-size: 14px;
+	}
+	.carousel__services_item{
+		flex-direction: column;
+	}
+	.s{
+		&-king, &-relative, &-partners, &-review{
+			padding-top: 8%;
+		}
+		&-review, &-partners{
+			padding-bottom: 8%;
+		}
+		&-call{
+			background-size: cover;
+		}
+	}
+}
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.welcome{
+		h1{
+			font-size: 48px;
+		}
+	}
+	.s-call{
+		&::before{
+			width: 100%;
+		}
+		.callback{
+			padding: 10% 0;
+		}
+	}
+	.footer-addr{
+		margin-bottom: 15px;
+		.footer-phone{
+			font-size: 20px;
+			white-space: nowrap;
+			padding-top: 0;
+			.fas{
+				top: 7px;
+			}
+		}
+	} 
+}
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.header-contacts{
+		text-align: center;
+	}
+	.button{
+		padding: 12px 36px;
+	}
+
+	.quotes{
+		display: none;
+	}
+	.footer-social{
+		margin-top: 29px;
+	}
+}
+	/**/
+
+@media only screen and (max-width : 576px) {
+	.welcome{
+		h1{
+			font-size: 44px;
+		}
+	}
+	.s{
+		&-king, &-relative, &-partners, &-review{
+			padding-top: 10%;
+		}
+		&-king{
+			p{
+				margin: 30px 0;
+				font-size: 14px;
+			}
+		}
+		&-review, &-partners{
+			padding-bottom: 10%;
+			font-size: 14px;
+		}
+	}
+	.inverse .h2{
+		font-size: 24px;
+	}
+	.footer-social{
+		margin-top: 0;
+		.soc li a{
+			margin-top: 0;
+		}
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.site-header{
+		background-position: 650px;
+	}
+	.welcome{
+		.h1{
+			font-size: 28px;
+		}
+		p{
+			span{
+				font-size: 10px;
+			}
+		}
+		strong{
+			margin-top: 14px;
+			font-size: 14px; 
+		}
+	}
+	.header-composition p{
+		margin-top: 20px;
+		font-size: 14px;
+	}
+	.carousel__services_composition{
+		.h3{
+			font-size: 22px;
+			span{
+				font-size: 16px;
+			}
+		}
+		.carousel__services_list li{
+			font-size: 14px;
+			.fas{
+				font-size: 12px;
+			}
+		}
+	}
+	.s{
+		&-king, &-relative, &-partners{
+			padding-top: 16%;
+		}
+	}
+	.inverse .h2{
+		font-size: 22px;
+	}
+	.slider-nav{
+		bottom: 64px;
+	}
+	.slider-nav .slick-slide{
+		width: 70px;
+	}
+	.partners-carousel{
+		margin-top: 0;
+	}
+}
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {}
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {}
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {}
+	/**/
+
+
+@media only screen and (max-width : 576px) {}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {}
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {}
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {}
+	/**/
+
