@@ -9,6 +9,11 @@ const jQuery = $;
 
 $(function() {
 
+	if(window.matchMedia('(max-width: 480px)').matches){
+		// do functionality on screens smaller than 480px
+		$(".site-header").css("background", "linear-gradient(132deg, rgba(21,21,21,1) 15%, rgba(85,85,85,1) 94%)");
+	}
+
 	new Mmenu( "#my-menu", {
        "extensions": [
           "pagedim-black",
